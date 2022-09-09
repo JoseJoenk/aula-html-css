@@ -4,32 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código Fonte</h2>
-    <p>O comando <code>document.getElementBuId('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é IMPAR)
-    print('Fim do Programa')
-        </code>
-    </pre>
-    <h2>Citações Simples</h2>
-    <p>Como diria o pai de um amigo: <q>O Computador é um burro muito rápido.</q></p>
-    <h2>Citações Completas</h2>
-    <p>Isso é uma citação de bloco, me disseram que:</p>
-    <blockquote cite="JeanJacRusseau">
-        Nada que um socão na boca não resolva
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>. Olha só que coisa!</p>
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Ligar pro João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os Dentes</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!--disc circle square-->
+        <li>Jogar carta 1</li>
+        <li>Jogar carta 2</li>
+        <li>Jogar carta 3</li>
+        <li>Jogar carta 7</li>
+    </ul>
+    <h2>Listas Mistas</h2>
+    <ol>
+        <li>Pokemon</li>
+        <ol type="I">
+            <li>Lista</li>
+            <li>Aninhada</li>
+        </ol>
+        <li>Digimon</li>
+        <ol type="i">
+            <li>Batata</li>
+            <ul type="disc">
+                <li>Cozida</li>
+                <li>Grelhada</li>
+            </ul>
+            <li>Aipim</li>
+            <ul type="circle">
+                <li>Frito</li>
+                <li>Recheado</li>
+            </ul>
+        </ol>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>Batata</dt>
+        <dd>Melhor comida do mundo</dd>
+        <dt>Esmeralda</dt>
+        <dd>Elfa que eu amo muito</dd>
+    </dl>
 </body>
 </html>
