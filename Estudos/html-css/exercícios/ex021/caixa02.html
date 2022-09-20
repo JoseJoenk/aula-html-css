@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(34, 36, 35);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        nav{
+            background-color: rgb(36, 36, 36);
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+    
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>E também é notícia!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi voluptate optio a. Tempore expedita ab totam laboriosam quasi! Voluptas eveniet maxime asperiores ut illum itaque ratione in quaerat? Tempora.</p>
+                <aside>
+                    <p>Artigo escrito por Gustavo Guanabara</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Zooz</p>
+    </footer>
+</body>
+</html>
