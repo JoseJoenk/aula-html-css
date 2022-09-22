@@ -60,6 +60,7 @@ main {
     margin-top: 0px;
     padding: 20px 0px 20px 0px;
     text-align: justify;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main > h1 {
@@ -97,6 +98,11 @@ section > img {
     display: block;
     margin: auto;
 }
+picture {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
 
 footer {
     background-color:#1A5C38;
@@ -107,4 +113,29 @@ footer {
 footer > p{
     padding-top: 7px;
     font-weight: lighter;
+}
+
+aside {
+    margin: 15px;
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+
+aside > p{
+    padding: 10px;
+}
+
+aside > h3 {
+    background-color: #2FA866;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    display: inline-block;
+    margin: 0px 150px 0px 0px;
+    list-style: none;
+    text-decoration: underline;
 }
