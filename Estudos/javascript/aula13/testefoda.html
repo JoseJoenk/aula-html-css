@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olha o Contador</title>
+</head>
+<body>
+    <input type="button" value="Clique em mim" onclick="contar()">
+    <div id="teste">
+
+    </div>
+
+    <script>
+        var n = 0
+        /* function contar() {
+            while (n < 10) {
+                n++
+                document.write(`${n} <br>`)
+            }
+        } */
+        function contar () {
+            do {
+                n++
+                document.write(`${n} <br>`)
+            } while (n < 10)
+        }
+    </script>
+</body>
+</html>
